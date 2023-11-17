@@ -42,7 +42,7 @@ Console.WriteLine("Número inteiro depois da conversão: " + numeroInteiro);
 // Problema: Dada a variável int x = 10 e a variável int y = 3, escreva código para calcular e exibir o resultado da adição,
 // subtração, multiplicação e divisão de x por y.
 
-#region Operadores aritiméticos
+#region Operadores Aritiméticos
 
 int x = 10;
 int y = 3;
@@ -60,9 +60,29 @@ Console.WriteLine($"Divisão: {divisao}");
 // 5.Operadores de Comparação:
 // Problema: Considere as variáveis int a = 5 e int b = 8. Escreva código para determinar se a é maior que b e exiba o resultado.
 
+#region Operadores de Comparação
+
+int a = 5;
+int b = 8;
+string comparacao = a > b ? "Valor de A é maior que B" : "Valor de B é maior que A";
+
+Console.WriteLine(comparacao);
+
+#endregion
+
 // 6.Operadores de Igualdade:
 // Problema: Você tem duas strings, string str1 = "Hello" e string str2 = "World". Escreva código para verificar se as duas
 // strings são iguais e exibir o resultado.
+
+#region Operadores de Igualdade
+
+string str1 = "Hello";
+string str2 = "World";
+string compare;
+compare = str1 == str2 ? "São iguais" : "Não são iguais";
+Console.WriteLine(compare);
+
+#endregion
 
 // 7.Operadores Lógicos:
 // Problema: Suponha que você tenha duas variáveis booleanas, bool condicao1 = true e bool condicao2 = false. Escreva código

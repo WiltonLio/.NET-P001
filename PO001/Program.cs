@@ -4,23 +4,23 @@
 
 #region Tipos de Dados
 
-        int TipoInt = 42;
-        Console.WriteLine($"Tipo int: {TipoInt}");
-        long TipoLong = 1234567890123456;
-        Console.WriteLine($"Tipo long: {TipoLong}");
-        short TipoShort = 32767;
-        Console.WriteLine($"Tipo short: {TipoShort}");
-        byte TipoByte = 255;
-        Console.WriteLine($"Tipo byte: {TipoByte}");
-        sbyte TipoSByte = -128;
-        Console.WriteLine($"Tipo sbyte: {TipoSByte}");
-        ushort TipoUShort = 65535;
-        Console.WriteLine($"Tipo ushort: {TipoUShort}");
-        uint TipoUInt = 4294967295;
-        Console.WriteLine($"Tipo uint: {TipoUInt}");
-        ulong TipoULong = 18446744073709551615;
-        Console.WriteLine($"Tipo ulong: {TipoULong}");
-        
+int TipoInt = 42;
+Console.WriteLine($"Tipo int: {TipoInt}");
+long TipoLong = 1234567890123456;
+Console.WriteLine($"Tipo long: {TipoLong}");
+short TipoShort = 32767;
+Console.WriteLine($"Tipo short: {TipoShort}");
+byte TipoByte = 255;
+Console.WriteLine($"Tipo byte: {TipoByte}");
+sbyte TipoSByte = -128;
+Console.WriteLine($"Tipo sbyte: {TipoSByte}");
+ushort TipoUShort = 65535;
+Console.WriteLine($"Tipo ushort: {TipoUShort}");
+uint TipoUInt = 4294967295;
+Console.WriteLine($"Tipo uint: {TipoUInt}");
+ulong TipoULong = 18446744073709551615;
+Console.WriteLine($"Tipo ulong: {TipoULong}");
+
 #endregion
 
 // 3.Conversão de Tipos de Dados:
@@ -28,9 +28,34 @@
 // conversão e o que aconteceria se a parte fracionária da variável double não pudesse ser convertida em um int? Resolva o 
 // problema através de um exemplo em C#.
 
+#region Conversão de Tipos de Dados
+double numeroDouble = 9.37;
+int numeroInteiro;
+
+numeroInteiro = (int)numeroDouble;
+Console.WriteLine("Número double: " + numeroDouble);
+Console.WriteLine("Número inteiro depois da conversão: " + numeroInteiro);
+
+#endregion
+
 // 4.Operadores Aritméticos:
 // Problema: Dada a variável int x = 10 e a variável int y = 3, escreva código para calcular e exibir o resultado da adição,
 // subtração, multiplicação e divisão de x por y.
+
+#region Operadores aritiméticos
+
+int x = 10;
+int y = 3;
+int soma = x + y;
+int subtracao = x - y;
+int multiplicacao = x * y;
+int divisao = x / y;
+Console.WriteLine($"Adição: {soma}");
+Console.WriteLine($"Subtração: {subtracao}");
+Console.WriteLine($"Multiplicação: {multiplicacao}");
+Console.WriteLine($"Divisão: {divisao}");
+
+#endregion
 
 // 5.Operadores de Comparação:
 // Problema: Considere as variáveis int a = 5 e int b = 8. Escreva código para determinar se a é maior que b e exiba o resultado.

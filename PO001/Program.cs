@@ -29,6 +29,7 @@ Console.WriteLine($"Tipo ulong: {TipoULong}");
 // problema através de um exemplo em C#.
 
 #region Conversão de Tipos de Dados
+
 double numeroDouble = 9.37;
 int numeroInteiro;
 
@@ -76,10 +77,10 @@ Console.WriteLine(comparacao);
 
 #region Operadores de Igualdade
 
-string str1 = "Hello";
-string str2 = "World";
+string string_01 = "Hello";
+string string_02 = "World";
 string compare;
-compare = str1 == str2 ? "São iguais" : "Não são iguais";
+compare = string_01 == string_02 ? "São iguais" : "Não são iguais";
 Console.WriteLine(compare);
 
 #endregion
@@ -88,6 +89,32 @@ Console.WriteLine(compare);
 // Problema: Suponha que você tenha duas variáveis booleanas, bool condicao1 = true e bool condicao2 = false. Escreva código
 // para verificar se ambas as condições são verdadeiras e exiba o resultado.
 
+#region Operadores Lógicos
+
+bool condicao_01 = true;
+bool condicao_02 = false;
+string resultado_final;
+
+resultado_final = (condicao_01 && condicao_02) ? "Ambos são verdadeiros." : "Pelo menos uma das condições é falsa.";
+Console.WriteLine(resultado_final);
+
+#endregion
+
 // 8.Desafio de Mistura de Operadores:
 // Problema: Dadas as variáveis int num1 = 7, int num2 = 3, e int num3 = 10, escreva código para verificar se num1 é maior do
 // que num2 e se num3 é igual a num1 + num2.
+
+#region Mistura de Operadores
+
+int num1 = 7;
+int num2 = 3;
+int num3 = 10;
+bool verificar_01;
+bool verificar_02;
+
+verificar_01 = (num1 > num2) ? true : false;
+Console.WriteLine(verificar_01);
+verificar_02 = (num3 == (num1 + num2)) ? true : false;
+Console.WriteLine(verificar_02);
+
+#endregion

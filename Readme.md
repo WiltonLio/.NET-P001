@@ -13,6 +13,7 @@
 >Comando: dotnet-core-update list (Listar todos os SDKs do .NET que podem ser atualizados com essa ferramenta)
 
 **2. Tipos de Dados:**
+
 *Problema: Quais são os tipos de dados numéricos inteiros disponíveis no .NET? Dê exemplos de uso para cada um deles através de exemplos.*
 ```csharp
 int TipoInt = 42;
@@ -33,6 +34,7 @@ ulong TipoULong = 18446744073709551615;
 Console.WriteLine($"Tipo ulong: {TipoULong}"); 
 ```
 **3. Conversão de Tipos de Dados:**
+
 *Problema: Suponha que você tenha uma variável do tipo double e deseja convertê-la em um tipo int. Como você faria essa conversão e o que aconteceria se a parte fracionária da variável double não pudesse ser convertida em um int? Resolva o problema através de um exemplo em C#.*
 ```csharp
 double numeroDouble = 9.37;
@@ -43,6 +45,7 @@ Console.WriteLine("Número double: " + numeroDouble);
 Console.WriteLine("Número inteiro depois da conversão: " + numeroInteiro);
 ```
 **4. Operadores Aritméticos:**
+
 *Problema: Dada a variável int x = 10 e a variável int y = 3, escreva código para calcular e exibir o resultado da adição,subtração, multiplicação e divisão de x por y.*
 ```csharp
 int x = 10;
@@ -57,6 +60,7 @@ Console.WriteLine($"Multiplicação: {multiplicacao}");
 Console.WriteLine($"Divisão: {divisao}");
 ```
 **5. Operadores de Comparação:**
+
 *Problema: Considere as variáveis int a = 5 e int b = 8. Escreva código para determinar se a é maior que b e exiba o resultado.*
 ```csharp
 int a = 5;
@@ -66,6 +70,7 @@ string comparacao = a > b ? "Valor de A é maior que B" : "Valor de B é maior q
 Console.WriteLine(comparacao);
 ```
 **6. Operadores de Igualdade:**
+
 *Problema: Você tem duas strings, string str1 = "Hello" e string str2 = "World". Escreva código para verificar se as duas strings são iguais e exibir o resultado.*
 ```csharp
 string string_01 = "Hello";
@@ -75,6 +80,7 @@ compare = string_01 == string_02 ? "São iguais" : "Não são iguais";
 Console.WriteLine(compare);
 ```
 **7. Operadores Lógicos:**
+
 *Problema: Suponha que você tenha duas variáveis booleanas, bool condicao1 = true e bool condicao2 = false. Escreva código para verificar se ambas as condições são verdadeiras e exiba o resultado.*
 ```csharp
 bool condicao_01 = true;
@@ -85,6 +91,7 @@ resultado_final = (condicao_01 && condicao_02) ? "Ambos são verdadeiros." : "Pe
 Console.WriteLine(resultado_final);
 ```
 **8. Desafio de Mistura de Operadores:**
+
 *Problema: Dadas as variáveis int num1 = 7, int num2 = 3, e int num3 = 10, escreva código para verificar se num1 é maior do que num2 e se num3 é igual a num1 + num2.*
 ```csharp
 int num1 = 7;
